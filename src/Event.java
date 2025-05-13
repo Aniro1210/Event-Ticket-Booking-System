@@ -15,5 +15,9 @@ class Event
     {
         availableTickets=count;
     }
+    String getTitle()
+    {
+        return this.title;
+    }
     
 }
