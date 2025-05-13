@@ -14,7 +14,7 @@ public class Ticket {
     {
         return status;
     }
-    String ticketDetails()
+    void ticketDetails()
     {
         attendee.showProfile();
         System.out.println("Event Name:"+event.title);
